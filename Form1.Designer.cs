@@ -44,7 +44,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "tên đăng nhập";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // txtUserName
             // 
@@ -72,11 +71,11 @@
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(258, 215);
+            this.btnlogin.Location = new System.Drawing.Point(258, 217);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.Size = new System.Drawing.Size(100, 23);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -91,6 +90,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
